@@ -2,8 +2,8 @@ name: Amanda Lam
 markdown: kramdown
 title: Data Blog       # appears in the header and the HTML <title> tag
 author: Amanda Lam     # appears in an HTML <meta> tag, as well as feed.xml
-avatar: /i/avatar.png    # appears as portrait in the header
-banner: /i/mountains.svg # appears as background in the header
+avatar:    # appears as portrait in the header
+banner:  # appears as background in the header
 url: http://jekyllrb.com # used by plugins to generate feed.xml and sitemap.xml
 baseurl: /jekyll-solana  # prepended to all absolute filepaths
 repo: https://github.com//rlue.github.io # appears in footer
@@ -13,19 +13,15 @@ repo: https://github.com//rlue.github.io # appears in footer
 nav_menu:
   - name: Posts
     url: /
-    icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
-    url: /projects
-    icon: /i/icons.svg#portfolio
-  - name: GitHub
-    url: https://github.com/rlue/
-    icon: /i/icons.svg#github
-    outbound: true      # this key sets a link to open in a new window.
+    icon: #/i/icons.svg#posts # icons should be 24x24 px.
+  - name: Resume
+    url: /
+    icon: #/i/icons.svg#portfolio
   - name: Contact
     scheme: mailto      # these keys enable email obfuscation.
     handle: hello       # you know, to protect you from bots. (handle and domain
     domain: github.com  # are separated in case bots crawl GitHub repos, too.)
-    icon: /i/icons.svg#email
+    icon: #/i/icons.svg#email
 
 #################
 # Site Settings #
