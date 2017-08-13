@@ -12,12 +12,12 @@ repo: https://github.com//rlue.github.io # appears in footer
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
-  - name: Posts
-    url: /Posts
-    icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: About
     url: /
     icon: /i/icons.svg#About
+  - name: Posts
+    url: /Posts
+    icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: Resume
     url:  /
     icon: /i/icons.svg#Resume
