@@ -16,13 +16,13 @@ nav_menu:
     url: /
     icon: /i/icons.svg#Home
   - name: About
-    url: 
+    url: /about
     icon: /i/icons.svg#About
   - name: Archive
     url: /post
     icon: /i/icons.svg#Archive 
   - name: Resume
-    url:  
+    url:  /resume
     icon: /i/icons.svg#Resume
   
 
