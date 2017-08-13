@@ -4,7 +4,7 @@
 
 title: Amanda Lam        # appears in the header and the HTML <title> tag
 author: Amanda Lam    
-slogan: Blog      
+slogan: Data Blog      
 avatar: /i/avatar.jpg    # appears as portrait in the header
 banner: /i/mountains.svg # appears as background in the header
 repo: https://github.com//rlue.github.io # appears in footer
