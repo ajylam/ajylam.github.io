@@ -350,7 +350,7 @@
     @include transition(padding-bottom, 0.25rem, 100ms);
     border: none;
 
-    &:hover { padding-bottom: 0.5rem; border-bottom: 0.25rem solid #b6e3e0; }
+    &:hover { padding-bottom: 0.5rem; border-bottom: 0.25rem solid #fff; }
     &:last-child { margin-right: 0; }
 
   }
