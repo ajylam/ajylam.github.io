@@ -333,7 +333,7 @@
 
     &:active {
       color: #fff;
-      background-color: #40867e;
+      background-color: #b6e3e0;
 
       {% for item in site.nav_menu %}
 	&.nav__item--{{ item.name | downcase }} { background-image: url("{{ item.icon }}_white"); }
@@ -484,8 +484,8 @@
   }
 
   @include tablet-portrait-up {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 500;
     margin-top: 5rem;
 
     a, a:hover {
@@ -504,7 +504,7 @@
 
   @include tablet-portrait-up {
     @include fontface(sans-serif);
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     margin-top: 0.5rem;
   }
 }
