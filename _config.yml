@@ -13,14 +13,14 @@ repo: https://github.com//rlue.github.io # appears in footer
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Posts
-    url: /Post
+    url: /Posts
     icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: About
-    url: /projects
-    icon: /i/icons.svg#portfolio
+    url: /
+    icon: /i/icons.svg#About
   - name: Resume
-    url: 
-    icon: /i/icons.svg#github
+    url:  /
+    icon: /i/icons.svg#Resume
   - name: Contact
     scheme: mailto      # these keys enable email obfuscation.
     handle: amandajylam       # you know, to protect you from bots. (handle and domain
