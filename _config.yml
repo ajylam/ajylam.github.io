@@ -19,7 +19,7 @@ nav_menu:
     url: 
     icon: /i/icons.svg#About
   - name: Posts
-    url: /posts
+    url: /post
     icon: /i/icons.svg#posts 
   - name: Resume
     url:  
