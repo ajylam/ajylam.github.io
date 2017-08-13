@@ -18,9 +18,9 @@ nav_menu:
   - name: About
     url: 
     icon: /i/icons.svg#About
-  - name: Posts
+  - name: Archive
     url: /post
-    icon: /i/icons.svg#posts 
+    icon: /i/icons.svg#Archive 
   - name: Resume
     url:  
     icon: /i/icons.svg#Resume
