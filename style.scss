@@ -111,7 +111,6 @@
     margin: 0 0.5rem;
     font-size: 1.5rem;
     font-weight: 700;
-    text-transform: lowercase;
 
     a:active { color: #fff; }
   }
@@ -449,7 +448,7 @@
     position: relative;
     padding: 1rem;
     background-color: #fff;
-    border: 1px solid #4e3107;
+    border: 1px solid #ffd3d3;
     border-right-width: 1.5rem;
     @include fontface(serif);
     color: #444;
