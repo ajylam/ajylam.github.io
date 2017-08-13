@@ -1,35 +1,6 @@
 name: Amanda Lam
 markdown: kramdown
 
-#######################
-# Theme Customization #
-#######################
-
-title: Data Blog         # appears in the header and the HTML <title> tag
-author: Amanda Lam     # appears in an HTML <meta> tag, as well as feed.xml
-description: >           # appears in an HTML <meta> tag, as well as feed.xml
-  This is my blog.
-slogan: Showtime!        # appears in the header, alongside the title
-#avatar: /i/avatar.png    # appears as portrait in the header
-#banner: /i/mountains.svg # appears as background in the header
-
-
-nav_menu:
-  - name: Home
-    url: /
-    #icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: About
-    url: /
-    #icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Resume
-    url: /
-    #icon: /i/icons.svg#portfolio
-  - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
-    #icon: /i/icons.svg#email
-
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -84,4 +55,3 @@ pagination:
 
 gems: [jekyll-paginate-v2]
 
-paginate: 10
