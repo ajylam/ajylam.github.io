@@ -76,7 +76,7 @@
 
 .nameplate {
   display: block;
-  color: #fff;
+  color: #000;
   position: relative; // keep this element clickable
   z-index: 1;         // under invisible nav
 
@@ -112,7 +112,7 @@
     font-size: 1.5rem;
     font-weight: 700;
 
-    a:active { color: #fff; }
+    a:active { color: #000; }
   }
 }
 
