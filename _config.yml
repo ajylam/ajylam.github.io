@@ -2,9 +2,9 @@
 # Theme Customization #
 #######################
 
-title: Amanda Lam's        # appears in the header and the HTML <title> tag
+title: Amanda Lam        # appears in the header and the HTML <title> tag
 author: Amanda Lam    
-slogan: Data Blog!       
+slogan: Data Blog      
 avatar: /i/avatar.png    # appears as portrait in the header
 banner: /i/mountains.svg # appears as background in the header
 repo: https://github.com//rlue.github.io # appears in footer
