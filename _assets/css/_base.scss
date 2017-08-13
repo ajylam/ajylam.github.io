@@ -26,7 +26,6 @@ a {
   color: #22953c; @include underline(#ddd);
   &:visited { @include underline(#fff); }
   &:hover   { @include underline(#96dba5); }
-  &:active  { @include highlight(#40867e) }
 }
 
 b, strong { @include fontweight(bold); }
