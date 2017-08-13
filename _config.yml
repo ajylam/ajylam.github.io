@@ -20,9 +20,9 @@ nav_menu:
   - name: Archive
     url: /post
     icon: /i/icons.svg#Archive 
-  - name: Resume
-    url:  /resume
-    icon: /i/icons.svg#Resume
+  - name: Contact
+    url:  /contact
+    icon: /i/icons.svg#Contact
   
 
 #################
