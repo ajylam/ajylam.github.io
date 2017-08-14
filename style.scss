@@ -102,12 +102,12 @@
   color: inherit;
 
   @include mobile-only {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
 
   @include tablet-portrait-up {
     margin: 0 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 700;
   }
 }
