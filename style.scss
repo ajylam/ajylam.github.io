@@ -102,6 +102,7 @@
   color: inherit;
 
   @include mobile-only {
+    color: #555;
     font-size: 1.0rem;
   }
 
@@ -109,6 +110,7 @@
     margin: 0 0.5rem;
     font-size: 1.0rem;
     font-weight: 400;
+    overflow-wrap: break-word;
   }
 }
 
