@@ -220,11 +220,11 @@
     margin-left: auto;
     margin-right: auto;
     bottom: 0; // anchor to bottom of expanding nav menu
-    left: auto;
+    left: 0;
     right: 0;
     width: 2.5rem;
     height: 1.3rem;
-    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: center, $color: transparent);
+    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: right, $color: d8ffde);
   }
 
   @include tablet-portrait-up {
@@ -234,7 +234,7 @@
     margin: 2rem;
     right: 0;
     top: 0;
-    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: #d8ffde);
+    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: transparent);
   }
 
   @include tablet-landscape-up {
