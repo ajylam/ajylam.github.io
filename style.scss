@@ -18,12 +18,12 @@
   margin-bottom: 3rem;
 
   background: #fff;
-  padding-top: 7.5rem;
+  padding-top: 4.5rem;
 
   > * { padding: 1rem; }
 
   @include tablet-portrait-up {
-    padding-top: 24rem;
+    padding-top: 16rem;
   }
 }
 
