@@ -401,6 +401,7 @@
   }
 }
 
+
 .posts--home__heading { display: none; }
 
 .posts__list {
@@ -632,6 +633,10 @@
     @include hoverbutton($button_tag, $icon: url("{{ site.baseurl }}/i/icons.svg#tag_pink"));
   }
 
+}
+
+.post__head {
+  @extend %banner__wrapper;
 }
 
 .post__body {
