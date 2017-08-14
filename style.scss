@@ -76,7 +76,7 @@
 
 .nameplate {
   display: block;
-  color: #000;
+  color: transparent;
   position: relative; // keep this element clickable
   z-index: 1;         // under invisible nav
 
