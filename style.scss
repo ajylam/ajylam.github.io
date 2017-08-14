@@ -80,8 +80,6 @@
   position: relative; // keep this element clickable
   z-index: 1;         // under invisible nav
 
-  &, &:hover { border: none; }
-
 }
 
 .nameplate__avatar {
