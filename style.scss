@@ -633,7 +633,7 @@
 }
 
 .post__head {
-  
+  @extend %banner__wrapper;
 }
 
 .post__body {
