@@ -396,7 +396,6 @@
 
   @include tablet-portrait-up {
     @extend %banner__wrapper;
-    top: 3rem;
     @extend %banner__title;
   }
 }
