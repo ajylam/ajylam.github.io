@@ -300,7 +300,7 @@
 	@include fontweight(bold, serif, #fff);
 	font-size: 2.5rem;
 	line-height: 3rem;
-	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: salmon);
+	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: #d8ffde);
       }
     }
   }
