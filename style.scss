@@ -402,7 +402,7 @@
 .posts__list {
   padding-left: 0;
 
-  @include mobile-only { margin: 0; }
+  @include mobile-only { margin: 0; top: -15rem; }
 }
 
 .posts__entry {
@@ -419,7 +419,7 @@
       content: '';
       display: block;
       position: relative;
-      top: -10rem;
+      top: -15rem;
       left: -1rem;
       width: 100vw;
       @include edge(top, 1px, #ccc);
