@@ -144,7 +144,7 @@
   }
 
   @include tablet-landscape-up {
-    > h1 { font-size: 3.625rem; }
+    > h1 { font-size: 3.625rem; bottom:-9 }
 
     > div:last-child { font-size: 3.25rem; }
   }
