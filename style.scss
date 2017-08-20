@@ -34,12 +34,6 @@
     padding-top: 16rem;
     padding-bottom: 5rem;
   }
-  @include mobile-only {
-    background-color: transparent;
-    margin-bottom: 0;
-    padding-top: 16rem;
-    padding-bottom: 10rem;
-  }
 }
 
 .backdrop--listing {
