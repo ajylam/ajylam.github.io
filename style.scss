@@ -123,28 +123,27 @@
     text-shadow: 2px 2px #444;
     line-height: 0;
 
-    > h1, > div:last-child {
-      position: absolute;
-      bottom: -9rem;
-    }
-
     > h1 {
       text-align: right;
       right: 50%;
       margin-right: 6.5rem;
       font-size: 6.5vw;
       line-height: 2rem;
+      position: absolute;
+      bottom: -12rem;
     }
 
     > div:last-child {
       left: 50%;
       margin-left: 6.5rem;
       font-size: 5.75vw;
+      position: absolute;
+      bottom: -9rem;
     }
   }
 
   @include tablet-landscape-up {
-    > h1 { font-size: 3.625rem; bottom:-9 }
+    > h1 { font-size: 3.625rem; }
 
     > div:last-child { font-size: 3.25rem; }
   }
@@ -177,7 +176,7 @@
 
   @include tablet-portrait-up {
     height: 2.25rem;
-    width: 3.25rem;
+    width: 2.25rem;
     margin: 0;
   }
 }
