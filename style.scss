@@ -408,7 +408,7 @@
 .posts__list {
   padding-left: 0;
 
-  @include mobile-only { margin: 0; top: -15rem; }
+  @include mobile-only { margin: 0; top: -50rem; }
 }
 
 .posts__entry {
