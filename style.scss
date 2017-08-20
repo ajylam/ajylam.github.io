@@ -55,7 +55,7 @@
     background-position: 0 25%;
     z-index: 1; // pull-down nav: force rest of page below shadow overlay
 
-    &.hidden { top: -7.2rem; /* activated on scrolldown (ui.js) */ }
+    &.hidden { top: -5.2rem; /* activated on scrolldown (ui.js) */ }
   }
 
   @include tablet-portrait-up {
