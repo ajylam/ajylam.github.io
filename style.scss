@@ -394,7 +394,6 @@
   border: none;
 
   @include tablet-portrait-up {
-    @extend %banner__wrapper;
     @extend %banner__title;
   }
 }
