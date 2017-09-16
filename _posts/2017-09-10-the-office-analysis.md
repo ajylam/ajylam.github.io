@@ -157,7 +157,8 @@ non-stop chatter, and Jan has a forceful and strong personality. Toby is also pr
 Gabe, Creed, Holly and Meredith, still had the longer average line in comparison.
 
 
-*"That's What She Said!"*
+That's What She Said!
+---------------------------------------
 Just for fun, I decided to count the number of "That's What She Said"s.
 
 ![alt text][graphs/twss.html]
