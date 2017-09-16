@@ -1,7 +1,6 @@
 #######################
 # Theme Customization #
 #######################
-
 title: Amanda Lam        
 author: Amanda Lam    
 slogan: Data Blog      
@@ -23,8 +22,6 @@ nav_menu:
   - name: Contact
     url:  /contact
     icon: /i/icons.svg#Contact
-  
-
 #################
 # Site Settings #
 #################
