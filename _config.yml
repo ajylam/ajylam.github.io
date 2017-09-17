@@ -24,7 +24,6 @@ nav_menu:
 #################
 # Site Settings #
 #################
-
 incremental: true
 exclude:
   - Gemfile
@@ -32,27 +31,21 @@ exclude:
   - LICENSE
   - README.md
   - TODO.md
-
 permalink: /:collection/:path
-
 collections:
   category: { output: true }
   tag:      { output: true }
-
 defaults:
-  - scope:  { type:   posts    }
-    values: { layout: post     }
-  - scope:  { type:   tag      }
-    values: { layout: listing  }
-  - scope:  { type:   category }
-    values: { layout: listing  }
-
+  - scope: {type: posts}
+    values: {layout: post}
+  - scope: {type: tag}
+    values: {layout: listing}
+  - scope: {type: category}
+    values: {layout: listing}
 sass:
   sass_dir: _assets/css
-
 gems:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
-
 paginate: 10
