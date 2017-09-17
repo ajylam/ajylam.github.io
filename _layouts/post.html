@@ -11,7 +11,9 @@ layout: default
 <main class="post" role="main">
   <div class="post__head">
     <h1 class="post__title"> {{ page.title }} </h1>
-    <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}"> {{ pretty_date }} </time>
+    {% if page.date %}
+      <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}"> {{ pretty_date }} </time>
+    {% endif %}
     <div class="post__labels">
     {% if page.category %} <a href="{{ site.baseurl }}/category/{{ page.category }}" class="post__category">{{ page.category }}</a>{% endif %}
     {% if page.tags %}{% for tag in page.tags %} <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>{% endfor %}{% endif %}
