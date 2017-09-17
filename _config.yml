@@ -1,11 +1,11 @@
 #######################
 # Theme Customization #
 #######################
-title: Amanda Lam        
-author: Amanda Lam    
-slogan: Data Blog      
-avatar: /i/avatar.jpg    
-banner: /i/banner.jpg 
+title: Amanda Lam
+author: Amanda Lam
+slogan: Data Blog
+avatar: /i/avatar.jpg
+banner: /i/banner.jpg
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
@@ -17,9 +17,9 @@ nav_menu:
     icon: /i/icons.svg#About
   - name: Archive
     url: /post
-    icon: /i/icons.svg#Archive 
+    icon: /i/icons.svg#Archive
   - name: Contact
-    url: /contact
+    url:  /contact
     icon: /i/icons.svg#Contact
 #################
 # Site Settings #
@@ -31,10 +31,13 @@ exclude:
   - LICENSE
   - README.md
   - TODO.md
+
 permalink: /:collection/:path
+
 collections:
-  category: { output: true }
-  tag:      { output: true }
+  category: {output: true}
+  tag: {output: true}
+
 defaults:
   - scope: {type: posts}
     values: {layout: post}
@@ -42,10 +45,13 @@ defaults:
     values: {layout: listing}
   - scope: {type: category}
     values: {layout: listing}
+
 sass:
   sass_dir: _assets/css
+
 gems:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+
 paginate: 10
