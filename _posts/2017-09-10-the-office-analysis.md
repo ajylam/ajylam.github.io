@@ -1,5 +1,6 @@
 ---
 title: The Office (US) Analysis
+date: 2017-09-10
 teaser: I was browsing through the subreddit, [/r/datasets](https://www.reddit.com/r/datasets/),
 for any datasets that were interesting and intrigued me. That's when I happily stumbled
 upon one containing every line from every episode of the show. Coincidentally, this show
