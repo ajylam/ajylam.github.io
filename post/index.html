@@ -2,19 +2,15 @@
 layout: default
 title: Blog Archive
 ---
-{% capture pretty_date %}
-  {% assign day = page.date | date: "%-d"  %}
-  {{ page.date | date: "%B" }}
-  {% case day %}{% when '1' or '21' or '31' %}{{ day }}st{% when '2' or '22' %}{{ day }}nd{% when '3' or '23' %}{{ day }}rd{% else %}{{ day }}th{% endcase %}{{ page.date | date: ", %Y" }}
-{% endcapture %}
-
 <main class="post" role="main">
   <div class="post__head">
     <h1 class="post__title"> {{ page.title }} </h1>
   </div>
   <div class="post__body">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% if post.date %}
+        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </div>
 </main>
