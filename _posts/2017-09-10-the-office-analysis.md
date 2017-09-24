@@ -13,8 +13,8 @@ in the works! Rejoice! We can find out what happened to Michael and Holly (heart
 Pam and Jim (#couplegoals), and Dwight (our favourite ex-assistant-(to-the)-manager).
 However, the release date is set to be aiming for the summer of 2018. In order to
 help with this long wait, I decided to perform an analysis on this data to see what
-interesting things I could find. What a great dataset for a first post, eh?
-Keep on reading to see what happened!
+interesting things I could find. I thought this would be a nice and simple dataset to start with
+for my very first post! Keep on reading to see what happened.
 
 *If you're interested in this dataset as well, [here](https://www.reddit.com/r/datasets/comments/6yt3og/every_line_from_every_episode_of_the_office_us/)
 is where I found it.*
@@ -124,43 +124,54 @@ Note that since there were a lot of characters, both major and minor, I narrowed
 top twenty-five characters.
 
 Here are the results graphed using the bokeh library:
-![alt text][graphs/the_office_overall_result.html]
-![alt text][graphs/the_office_overall_season_results.html]
-![alt text][graphs/the_office_avg_num_lines_episode.html]
-![alt text][graphs/the_office_avg_len_lines_episode.html]
+![alt text][graphs/overall_num_lines_per_char.png]
+
+Click [here] to zoom in and explore the graph further. (graphs/the_office_overall_result.html)
+
+![alt text][graphs/num_lines_per_season.png]
+
+Click [here] to zoom in and explore the graph further. (graphs/the_office_overall_season_results.html)
+
+![alt text][graphs/avg_num_lines_per_episode.png]
+
+Click [here] to zoom in and explore the graph further. (graphs/the_office_avg_num_lines_episode.html)
+
+![alt text][graphs/avg_len_lines_per_episode.png]
+
+Click [here] to zoom in and explore the graph further. (graphs/the_office_avg_len_lines_episode.html)
 
 As is not surprising, Michael, Dwight, Jim and Pam have the most number of lines. I was a bit surprised about Andy, but he did become quite a major character after Michael left in season 7. Dwight has slightly more lines
-than Jim - a competition that Dwight would surely be happy he one-upped Jim in. The other more minor characters obviously had way less lines, especially those characters who were not recurring or brief guest stars. The more major characters
+than Jim - a competition that Dwight would surely be happy he one-upped Jim in. The other minor characters obviously had way less lines, especially those characters who were not recurring or brief guest stars. The more major characters
 had at least double the total number of lines as the minor characters. I was a bit surprised that Kevin, Angela,
-Oscar, and Phyllis had such little lines. In my mind, they are also an integral part of The Office, and maybe
+Oscar, and Phyllis said so little. In my mind, they are also an integral part of The Office, and maybe
 I just thought they said a lot more than they really did. Stanley, Meredith and Creed, I expected, did not have
-a lot of lines - but the lines they did have were comedy gold! However, these minor recurring characters had a
+much lines to say - but the lines they did have were comedy gold and these minor recurring characters had a
 consistent number of lines across the seasons.
 
-Obviously from season 1 to 7, Michael had the most number of lines for each of those seasons. But it's interesting to see what happened when he left. Looking at Andy, there is a huge spike and he has the highest number of lines in season 8 compared to everyone. This is explained by the fact he became the new regional manager after Michael left. However, it is interesting to note that in season 9, his lines decrease by almost half. This is probably because in real life,
-Ed Helms, who had recently become very popular, was shooting multiple movies that year. Season 9 is dominated by Dwight, who has the most number of lines. Dwight, in fact, seems to have more lines than Jim in most seasons except for seasons 4 and 6.
+Obviously from season 1 to 7, Michael had the most number of lines for each of those seasons. But it's interesting to see what happened when he left. Looking at Andy, there is a huge spike and he has the highest number of lines in season 8 compared to everyone. This is explained by the fact he became the new regional manager after Michael left. However, it is interesting to note that in season 9, his lines decrease by almost half. This is probably because in real life, Ed Helms, who had recently become very popular, was shooting multiple movies that year. Season 9 is dominated by Dwight, who has the most number of lines. Dwight, in fact, seems to have more lines than Jim in most seasons except for seasons 4 and 6.
 
 Looking at the average length of lines in an episode, as usual, Michael, Dwight, Jim, Pam and Andy are in the
 top five. However, it is interesting to see that Pam and Andy have almost the same average length of lines,
-despite the fact Andy only became a prominent main character in season 8 and wasn't even in seasons 1 and 2, while
+despite the fact Andy only became a prominent main character in season 8 and wasn't even in seasons 1 and 2. On the other hand,
 Pam has consistently been a main character and actually had more overall lines than Andy. This is probably reflective of
-Andy's verbose style of speaking and tendency to break out into song at inopportune times. Also, another interesting
-observation is that Nellie and Stanley have almost the same average length for lines, despite the fact that Nellie
-only appeared in seasons 8 and 9. However, if you know the character of Stanley - a quiet, gruff, no-nonsense man -
-this would make sense. He may have had more lines than Nellie, but when he speaks, he doesn't say much (he uses his
-face to convey his feelings [insert Stanley gif here]). On the other hand, Nellie, as some of you may remember, is quite an over-the-top person and loves talking. Another case is Phyllis, who has more lines than Kelly, Toby and Jan. However,
-They all have longer lines than Phyllis. This is explainable by Phyllis' quiet and timid nature, while Kelly is a
-non-stop chatter, and Jan has a forceful and strong personality. Toby is also pretty quiet, but Michael did needle and make fun of him a lot more than Phyllis. Another notable talker is Robert California, who even though had less lines than
-Gabe, Creed, Holly and Meredith, still had the longer average line in comparison.
+Andy's verbose style of speaking and tendency to break out into song at inopportune times. 
+
+Also, another interesting observation is that Nellie and Stanley have almost the same average length for lines, despite the fact that Nellie only appeared in seasons 8 and 9. However, if you know the character of Stanley - a quiet, gruff, no-nonsense man - this would make sense. He may have had more lines than Nellie, but when he speaks, he doesn't say much (he uses his face to convey his feelings [insert Stanley gif here]). On the other hand, Nellie, as some of you may remember, is quite an over-the-top person and loves talking. 
+
+Another case is Phyllis, who has more lines than Kelly, Toby and Jan. However, they all have longer lines than Phyllis. This is explainable by Phyllis' quiet and timid nature, while Kelly is a non-stop chatter, and Jan has a forceful and strong personality. Toby is also pretty quiet, but Michael did needle and make fun of him a lot more than Phyllis. Another notable talker is Robert California who, even though had less lines than Gabe, Creed, Holly and Meredith, still had the longer average line in comparison.
 
 
 That's What She Said!
 ---------------------------------------
 Just for fun, I decided to count the number of "That's What She Said"s.
 
-![alt text][graphs/twss.html]
+![alt text][graphs/num_twss_per_season.png]
 
-![alt text][graphs/twss_season.html]
+Click [here] to zoom in and explore the graph further. (graphs/twss_season.html)
+
+![alt text][graphs/num_twss_per_char.png]
+
+Click [here] to zoom in and explore the graph further. (graphs/twss.html)
 
 It is no surprise that Michael has said the most 'That's What She Said's in the entire series. I was a bit surprised by the low total counts, with the most number of TWSS in a season being 10. This means if there was one per episode, only about half of the episodes in a season contained 'That's What She Said'.
 
