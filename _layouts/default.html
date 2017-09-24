@@ -8,7 +8,7 @@
 
 {% if page.title == 'Posts' %}
   {% assign page_type = 'home' %}
-  {% assign title = '' %}
+  {% assign title = site.title %}
   {% assign teaser = site.description %}
 {% elsif page.layout == 'listing' %}
   {% assign page_type = 'listing' %}
@@ -35,7 +35,9 @@
       <header class="header header--{{ page_type }}">
         <a class="nameplate nameplate--{{ page_type }}" href="{{ site.baseurl }}/" style="border: 0;">
           <div class="nameplate__avatar nameplate--{{ page_type }}__avatar"></div>
-          <h1 class="nameplate__title nameplate--{{ page_type }}__title">{{ site.title }}</h1>
+          {% if page.title != 'Posts' %}
+            <h1 class="nameplate__title nameplate--{{ page_type }}__title">{{ site.title }}</h1>
+          {% endif %}
           <div class="nameplate__subhead nameplate--{{ page_type }}__subhead" color=#555;>{% if site.slogan %} {{ site.slogan }} {% endif %}</div>
         </a>
 
