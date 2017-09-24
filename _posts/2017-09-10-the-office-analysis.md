@@ -1,9 +1,6 @@
 ---
 title: The Office (US) Analysis
-teaser: I was browsing through the subreddit, [/r/datasets](https://www.reddit.com/r/datasets/),
-for any datasets that were interesting and intrigued me. That's when I happily stumbled
-upon one containing every line from every episode of the show. Coincidentally, this show
-had been on my mind...
+teaser: I was browsing through the subreddit, [/r/datasets](https://www.reddit.com/r/datasets/), for any datasets that were interesting and intrigued me. That's when I happily stumbled upon one containing every line from every episode of the show. Coincidentally, this show had been on my mind...
 ---
 
 How it all began:
