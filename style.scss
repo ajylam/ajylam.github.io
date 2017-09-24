@@ -408,7 +408,7 @@
 .posts { @extend %content--width-limit; }
 
 .posts--home { 
-  padding-top: 5; 
+  padding-top: 0; 
   @include mobile-only {
     padding-top: 20;
   }
@@ -428,7 +428,7 @@
 .posts__list {
   padding-left: 0;
 
-  @include mobile-only { margin: 0; padding-top: -50rem; }
+  @include mobile-only { margin: 0; padding-top: -500rem; }
 }
 
 .posts__entry {
