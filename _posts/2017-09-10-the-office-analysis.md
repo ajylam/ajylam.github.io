@@ -124,21 +124,21 @@ Note that since there were a lot of characters, both major and minor, I narrowed
 top twenty-five characters.
 
 Here are the results graphed using the bokeh library:
-![alt text][/graphs/overall_num_lines_per_char.png]
+![alt text](/graphs/overall_num_lines_per_char.png)
 
-Click [here](htps://ajylam.github.io/graphs/the_office_overall_result.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/the_office_overall_result.html) to zoom in and explore the graph further. 
 
-![alt text][/graphs/num_lines_per_season.png]
+![alt text](/graphs/num_lines_per_season.png)
 
-Click [here](htps://ajylam.github.io/graphs/the_office_overall_season_results.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/the_office_overall_season_results.html) to zoom in and explore the graph further. 
 
-![alt text][/graphs/avg_num_lines_per_episode.png]
+![alt text](/graphs/avg_num_lines_per_episode.png)
 
-Click [here](htps://ajylam.github.io/graphs/the_office_avg_num_lines_episode.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/the_office_avg_num_lines_episode.html) to zoom in and explore the graph further. 
 
-![alt text][/graphs/avg_len_lines_per_episode.png]
+![alt text](/graphs/avg_len_lines_per_episode.png)
 
-Click [here](htps://ajylam.github.io/graphs/the_office_avg_len_lines_episode.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/the_office_avg_len_lines_episode.html) to zoom in and explore the graph further. 
 
 As is not surprising, Michael, Dwight, Jim and Pam have the most number of lines. I was a bit surprised about Andy, but he did become quite a major character after Michael left in season 7. Dwight has slightly more lines
 than Jim - a competition that Dwight would surely be happy he one-upped Jim in. The other minor characters obviously had way less lines, especially those characters who were not recurring or brief guest stars. The more major characters
@@ -165,13 +165,13 @@ That's What She Said!
 ---------------------------------------
 Just for fun, I decided to count the number of "That's What She Said"s.
 
-![alt text][/graphs/num_twss_per_season.png]
+![alt text](/graphs/num_twss_per_season.png)
 
-Click [here](htps://ajylam.github.io/graphs/twss_season.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/twss_season.html) to zoom in and explore the graph further. 
 
-![alt text][/graphs/num_twss_per_char.png]
+![alt text](/graphs/num_twss_per_char.png)
 
-Click [here](htps://ajylam.github.io/graphs/twss.html) to zoom in and explore the graph further. 
+Click [here](https://ajylam.github.io/graphs/twss.html) to zoom in and explore the graph further. 
 
 It is no surprise that Michael has said the most 'That's What She Said's in the entire series. I was a bit surprised by the low total counts, with the most number of TWSS in a season being 10. This means if there was one per episode, only about half of the episodes in a season contained 'That's What She Said'.
 
