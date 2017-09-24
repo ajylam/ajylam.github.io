@@ -13,6 +13,7 @@ body {
 }
 
 h1 { @include heading(2); }
+h7 { @include heading(2); }
 
 h2 { @include heading(1.6); @include edge($color: #ddd, $distance: 0.5rem); }
 
