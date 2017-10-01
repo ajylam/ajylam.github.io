@@ -410,7 +410,7 @@
 .posts--home { 
   padding-top: 0; 
   @include mobile-only {
-    padding-top: 1cm;
+    padding-top: 0.5cm;
   }
 }
 
@@ -419,6 +419,9 @@
 
   @include tablet-portrait-up {
     @extend %banner__title;
+  }
+  @include mobile-only {
+    padding-top: 1cm;
   }
 }
 
@@ -622,9 +625,6 @@
   @include tablet-portrait-up {
     color: inherit;
     margin-bottom: 1rem;
-  }
-  @include mobile-only {
-    padding-top: 1cm;
   }
 }
 
