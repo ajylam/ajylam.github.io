@@ -114,7 +114,7 @@
   color: inherit;
 
   @include mobile-only {
-    color: #330817;
+    color: #000;
     font-size: 1.0rem;
   }
 
@@ -244,7 +244,7 @@
     right: 0;
     width: 2.5rem;
     height: 1.3rem;
-    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: center, $color: #d8ffde);
+    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: center, $color: #A58F91);
   }
 
   @include tablet-portrait-up {
