@@ -623,6 +623,9 @@
     color: inherit;
     margin-bottom: 1rem;
   }
+  @include mobile-only {
+    padding-top: 1cm;
+  }
 }
 
 .post__date {
@@ -656,6 +659,7 @@
 
 .post__head {
   @extend %banner__wrapper;
+	
 }
 
 .post__body {
