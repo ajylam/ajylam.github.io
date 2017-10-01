@@ -662,6 +662,9 @@
 
 .post__head {
   @extend %banner__wrapper;
+  @include mobile-only {
+    padding-top: 2cm;
+  }
 	
 }
 
