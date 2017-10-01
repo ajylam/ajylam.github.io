@@ -421,9 +421,6 @@
   @include tablet-portrait-up {
     @extend %banner__title;
   }
-  @include mobile-only {
-    padding-top: 1cm;
-  }
 }
 
 
@@ -663,6 +660,9 @@
 
 .post__head {
   @extend %banner__wrapper;
+  @include mobile-only {
+    padding-top: 1cm;
+  }
 }
 
 .post__body {
