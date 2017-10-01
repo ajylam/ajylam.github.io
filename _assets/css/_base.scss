@@ -26,7 +26,7 @@ hr { display: none; }
 a {
   color: #22953c; @include underline(#ddd);
   &:visited { @include underline(#fff); }
-  &:hover   { @include underline(#96dba5); }
+  &:hover   { @include underline(#330817); }
 }
 
 b, strong { @include fontweight(bold); }
@@ -35,7 +35,7 @@ dfn { @extend b; font-style: normal; }
 
 mark {
   @include fontweight(bold);
-  @include highlight(#33a84d);
+  @include highlight(#330817);
   padding: 0 0.25rem;
 }
 
