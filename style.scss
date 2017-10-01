@@ -427,6 +427,9 @@
 
 
 .posts--home__heading { display: none; }
+ @include mobile-only {
+    padding-top: 1cm;
+  }
 
 .posts__list {
   padding-left: 0;
