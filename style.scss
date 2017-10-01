@@ -441,7 +441,7 @@
 
   @include mobile-only {
     font-size: 0.875rem;
-    padding: 2.5rem 0;
+    padding: 1rem 0;
     margin: 0;
   }
 
@@ -663,10 +663,6 @@
 
 .post__head {
   @extend %banner__wrapper;
-  @include mobile-only {
-    padding-top: 1cm;
-  }
-	
 }
 
 .post__body {
