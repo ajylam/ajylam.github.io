@@ -96,7 +96,7 @@
 
 .nameplate__avatar {
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #E1CFCF;
   @include bgicon($image: url("{{ site.baseurl }}{{ site.avatar }}"), $size: 100%);
 
   @include mobile-only {
