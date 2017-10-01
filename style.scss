@@ -427,8 +427,6 @@
 
 .posts__list {
   padding-left: 0;
-
-  @include mobile-only { margin: 0; padding-top: 1cm; }
 }
 
 .posts__entry {
