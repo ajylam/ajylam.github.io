@@ -96,7 +96,7 @@
 
 .nameplate__avatar {
   border-radius: 50%;
-  background-color: #d8ffde;
+  background-color: #fff;
   @include bgicon($image: url("{{ site.baseurl }}{{ site.avatar }}"), $size: 100%);
 
   @include mobile-only {
@@ -114,7 +114,7 @@
   color: inherit;
 
   @include mobile-only {
-    color: #555;
+    color: #330817;
     font-size: 1.0rem;
   }
 
@@ -254,7 +254,7 @@
     margin: 2rem;
     right: 0;
     top: 0;
-    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: #d8ffde);
+    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: #A58F91);
   }
 
   @include tablet-landscape-up {
@@ -318,7 +318,7 @@
 	@include fontweight(bold, serif, #555);
 	font-size: 2.5rem;
 	line-height: 3rem;
-	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: #d8ffde);
+	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: #A58F91);
       }
     }
   }
@@ -351,7 +351,7 @@
 
     &:active {
       color: #fff;
-      background-color: #b6e3e0;
+      background-color: #E1CFCF;
 
       {% for item in site.nav_menu %}
 	&.nav__item--{{ item.name | downcase }} { background-image: url("{{ item.icon }}_white"); }
@@ -474,7 +474,7 @@
     position: relative;
     padding: 1rem;
     background-color: #fff;
-    border: 1px solid #d8ffde;
+    border: 1px solid #E1CFCF;
     border-right-width: 2.5rem;
     @include fontface(serif);
     color: #444;
@@ -594,12 +594,12 @@
   @include mobile-only {
     line-height: 1.5rem;
     font-weight: 500;
-    @include highlight(#18682a);
+    @include highlight(#330817);
     border-radius: 0.25rem;
   }
 
   @include tablet-portrait-up {
-    @include hoverbutton(#18682a);
+    @include hoverbutton(#330817);
   }
 }
 
@@ -670,7 +670,7 @@
     &:after { // tombstone
       content: ' \2766';
       font-size: 1.2rem;
-      color: #107526;
+      color: #330817;
     }
   }
 
@@ -680,19 +680,6 @@
     &::after { content: "]"; }
 
   }
-}
-
-.comments { @extend %content--width-limit; }
-
-.comments__cta {
-  height: 2rem;
-  margin: 1rem 0;
-  padding: 0.5rem;
-  padding-left: 2.6rem;
-  @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#snoo_white"), $size: 2rem, $position: 0.375rem center, $color: $button_comment);
-  @include hoverbutton($button_comment, $icon: url("{{ site.baseurl }}/i/icons.svg#snoo_orange"));
-  font-size: 1.2rem;
-  line-height: 2;
 }
 
 .backdrop-footnotes { background-color: #eee; }
@@ -715,7 +702,3 @@
     }
   }
 }
-
-
-/* # 7) Trumps
- ========================================= */
