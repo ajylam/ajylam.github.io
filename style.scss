@@ -245,7 +245,7 @@
     right: 0;
     width: 2.5rem;
     height: 1.3rem;
-    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: center, $color: #A58F91);
+    @include bgicon($image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAFCAQAAAD1NuQ2AAAAEklEQVQIW2O88p9hqANGUv0AABTnA6kS+8qPAAAAAElFTkSuQmCC"), $position: center, $color: #BC8F8F);
   }
 
   @include tablet-portrait-up {
@@ -255,7 +255,7 @@
     margin: 2rem;
     right: 0;
     top: 0;
-    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: #A58F91);
+    @include bgicon($image: url("{{ site.baseurl }}/i/icons.svg#hamburger"), $position: center, $color: #BC8F8F);
   }
 
   @include tablet-landscape-up {
@@ -319,7 +319,7 @@
 	@include fontweight(bold, serif, #555);
 	font-size: 2.5rem;
 	line-height: 3rem;
-	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: #A58F91);
+	@include bgicon($image: url('/i/icons.svg#close_white'), $position: top 2.125rem right 2.375rem, $size: null, $color: #BC8F8F);
       }
     }
   }
