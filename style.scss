@@ -421,7 +421,7 @@
     @extend %banner__title;
   }
   @include mobile-only {
-    padding-top: 2cm;
+    padding-top: 5cm;
   }
 }
 
@@ -440,7 +440,7 @@
 
   @include mobile-only {
     font-size: 0.875rem;
-    padding: 2.5rem 0;
+    padding: 2cm 0;
     margin: 0;
   }
 
