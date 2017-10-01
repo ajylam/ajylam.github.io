@@ -421,7 +421,7 @@
     @extend %banner__title;
   }
   @include mobile-only {
-    padding-top: 1.5cm;
+    padding-top: 1cm;
   }
 }
 
@@ -663,7 +663,7 @@
 .post__head {
   @extend %banner__wrapper;
   @include mobile-only {
-    padding-top: 2cm;
+    padding-top: 1cm;
   }
 	
 }
