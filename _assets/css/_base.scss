@@ -24,7 +24,7 @@ h4 { @include heading(1.2); }
 hr { display: none; }
 
 a {
-  color: #22953c; @include underline(#ddd);
+  color: #330817; @include underline(#ddd);
   &:visited { @include underline(#fff); }
   &:hover   { @include underline(#330817); }
 }
