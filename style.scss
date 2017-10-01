@@ -410,7 +410,7 @@
 .posts--home { 
   padding-top: 0; 
   @include mobile-only {
-    padding-top: 0.5cm;
+    padding-top: 1cm;
   }
 }
 
@@ -421,7 +421,7 @@
     @extend %banner__title;
   }
   @include mobile-only {
-    padding-top: 2cm;
+    padding-top: 1cm;
   }
 }
 
